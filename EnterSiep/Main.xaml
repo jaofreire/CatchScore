@@ -1,0 +1,279 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap:VirtualizedContainerService.HintSize="1139,2453" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.Core.Activities.Storage</x:String>
+      <x:String>UiPath.Core.Activities.Orchestrator</x:String>
+      <x:String>UiPath.Activities.System.Text</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.ExtractData</x:String>
+      <x:String>UiPath.UIAutomationNext.Triggers</x:String>
+      <x:String>UiPath.Platform.Triggers</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.Platform.Triggers.Scope</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Triggers</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Excel.Activities.Business</x:String>
+      <x:String>UiPath.Excel.Model</x:String>
+      <x:String>UiPath.Shared.Activities.Utils</x:String>
+      <x:String>UiPath.MicrosoftOffice365.Activities.Files.Enums</x:String>
+      <x:String>UiPath.MicrosoftOffice365.Files.Models</x:String>
+      <x:String>UiPath.Platform.ResourceHandling</x:String>
+      <x:String>UiPath.MicrosoftOffice365.Activities.Excel</x:String>
+      <x:String>UiPath.Shared.Activities.ConnectionService.Contracts</x:String>
+      <x:String>UiPath.MicrosoftOffice365.Activities.Contracts</x:String>
+      <x:String>UiPath.MicrosoftOffice365.Activities</x:String>
+      <x:String>Microsoft.Graph</x:String>
+      <x:String>UiPath.Excel.Activities</x:String>
+      <x:String>UiPath.MicrosoftOffice365.Activities.Excel.Enums</x:String>
+      <x:String>UiPath.MicrosoftOffice365.Enums</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.CSharp</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.MicrosoftOffice365.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.MicrosoftOffice365</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+      <AssemblyReference>EnterSiep.Core</AssemblyReference>
+      <AssemblyReference>netstandard</AssemblyReference>
+      <AssemblyReference>Microsoft.Graph</AssemblyReference>
+      <AssemblyReference>Microsoft.Graph.Core</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="642,2388" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="sd:DataTable" Name="ExtractDataTable">
+        <Variable.Default>
+          <CSharpValue x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpValue`1_2">new System.Data.DataTable();</CSharpValue>
+        </Variable.Default>
+      </Variable>
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Browser Chrome: Portal SIEPE" sap:VirtualizedContainerService.HintSize="580,1399" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="e1c779bc-7084-4137-8393-67e8920957ec" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Fazer" sap:VirtualizedContainerService.HintSize="450,1182" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:String" Name="variable1" />
+              <Variable x:TypeArguments="sd:DataTable" Name="ExtractDataTable">
+                <Variable.Default>
+                  <CSharpValue x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpValue`1_1">new System.Data.DataTable();</CSharpValue>
+                </Variable.Default>
+              </Variable>
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Login'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388,218" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="e1c779bc-7084-4137-8393-67e8920957ec" Text="jaofreire" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.siepe.educacao.pe.gov.br/" CvElementArea="528, 151, 160, 25" CvType="InputBox" DesignTimeRectangle="529, 153, 158, 22" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'INPUT login'" FullSelectorArgument="&lt;webctrl id='login' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='login' tag='INPUT' type='text' class='' aaname='Login:' /&gt;" Guid="9ce80d35-efb0-4c2c-b99b-00f46a4b9404" InformativeScreenshot="914d3113b6a886b3a29ee940450aba75.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Portal SIEPE' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CvTextArea="482, 158, 36, 14" CvTextArgument="Login:" CvType="Text" DesignTimeRectangle="480, 150, 49, 23" ElementType="Text" FriendlyName="'Login'" FullSelectorArgument="&lt;webctrl tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='LabelLogin' aaname='Login:' check:innerText='Login:' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADUAAAAbCAYAAADcQMc2AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAERSURBVFhH7ZO7DYMwFEW9AGtkKYo0mcELpPMYlIgRUiNFokNiAQoQFS0NNzxssIOUj0j4WT7SlbAN5h2eYXEcw7awNE1hW1ie57AtrK5r2BbWNA1sC2vbFjaFcw4GiyAhwkntHSd1FJzUP7iLM0SiBgvxUaqMrvBEpkbHwElNoaPknWT8qFKzRIXwote80xVhIVfM40fXvgjgD/ddbijlUofc43nf75gt1c+PRcgCzGL1MxnEG6lXe2wiZRZH6PuoGC3xScoserrnXJyUST//5viNxRa37p+ZI7X08Rt/eBUlSUUMc88vp+6ota5ru5P6mb5TAe5quAbLSCWB7moX/fXXYflObYCTOgpWShGcczwAOFAe2fQDXNwAAAAASUVORK5CYII=" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Senha'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388,218" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="e1c779bc-7084-4137-8393-67e8920957ec" Text="jaopao1357" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.siepe.educacao.pe.gov.br/" CvElementArea="740, 152, 160, 25" CvType="InputBox" DesignTimeRectangle="741, 153, 158, 22" DesignTimeScaleFactor="1" ElementType="InputBoxPassword" FriendlyName="'INPUT senha'" FullSelectorArgument="&lt;webctrl id='senha' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='senha' tag='INPUT' type='password' class='' aaname='Senha:' /&gt;" Guid="22ea0a5c-af09-48a9-9d40-a6f3543f88f7" InformativeScreenshot="d1887fe2f2f69b40018860b591a07306.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Portal SIEPE' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CvTextArea="694, 158, 41, 12" CvTextArgument="Senha:" CvType="Text" DesignTimeRectangle="692, 150, 49, 23" ElementType="Text" FriendlyName="'Senha'" FullSelectorArgument="&lt;webctrl aaname='Senha:' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Senha:' tag='LABEL' type='' class='' check:innerText='Senha:' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADUAAAAbCAYAAADcQMc2AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAE+SURBVFhH7ZRBDoIwEEV7Aa/hpVy48Qy9gLseg6XhCK5JSNiReAEWGFds2fCltMK0gmiDUZr+ZJKWITPz2g8sSRL4FizPc/gWrCgK+Basqir4Fqyua/gWrGka+BScczB4JAkkFaD+XQFqLQpQS+kaH7ERF71bXm9BpWKPzZbE4Yyrzrno51BjA6QiQqrXLvo5lLylXXzTuxGVZ+z6WzziVKrHavAIos8NB/EqhyzSz1QYvbteQ48pzduPDv1ku0s7GGki39XvdIOTYenhvMqZGqm/CBSRGoacrHFLj1A5dRuDxeTegJrIATecDrTePIStj6CUVFORtcsOiliHyBWq+yn1Oeum3tQMlASwi9JGcm1aJ42J/Ryh+nq23Razn/XhPtnBtqAe1hXKqNce6HegVqgAtRYFqLXISygpzjnubcP0ojp5FOIAAAAASUVORK5CYII=" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Entrar'" sap:VirtualizedContainerService.HintSize="388,157" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e1c779bc-7084-4137-8393-67e8920957ec" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.siepe.educacao.pe.gov.br/" CvElementArea="911, 99, 43, 23" CvTextArea="915, 104, 35, 13" CvTextArgument="Entrar" CvType="Button" DesignTimeRectangle="917, 105, 33, 14" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'Entrar'" FullSelectorArgument="&lt;webctrl parentid='okLogon' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='okLogon' tag='SPAN' type='' class='' aaname='Entrar' check:innerText='Entrar' /&gt;" Guid="84e61a40-55c6-45ce-a76a-cf5540895b5f" InformativeScreenshot="8ef99e0e535a8a80bbe579fd813cffbf.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Portal SIEPE' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CvElementArea="911, 99, 43, 23" CvTextArea="915, 104, 35, 13" CvTextArgument="Entrar" CvType="Button" DesignTimeRectangle="913, 102, 41, 19" ElementType="Button" FriendlyName="'Entrar'" FullSelectorArgument="&lt;webctrl id='okLogon' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl id='okLogon' tag='BUTTON' type='button' class='' aaname=' &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;Entrar &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;' check:innerText='Entrar' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAC0AAAAXCAYAAACf+8ZRAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALGSURBVFhH3ZdbTiJREIZncazADbAAXhF89klF3ISKqCsgEYwSjIn4ABKi8maMF7ygEQzeqMlXSZ0cuxtmTAYvU8kfTp/6q+rvrjrd+kt+oP1/orvdrrRaLdnd3ZVisSiFQmEsIDc1qEXNP9lQ0YeHh5rs6OhIbm5u5Pn5WQaDwVhAbmpQi5rUHmUh0f1+X+/64OBAnp6e5O3t7VNBTWqjAS1RFhJtbXp9ff1S2FhG2TvRtKVer8vLy8u3AFqiRsWJ5gAwT71eT1u0vr4usVgshIWFBfWPAhzio3wfAVrQFDycTjTtaDabOkdgbW1Npqam5O7uzu39LbLZrMZH+T4KNKHNNyea+Tk/P5fHx0fF6uqqpNNpub29dXs+5ufnZXp6WiYmJrQDxiXOusIaXiKRcNdw4BrH4mzfuJVKReugKTjbTjRtuL+/11aAfD6vSa6vr92eD8TE43E5PT2VRqOh4svlsvMRb2s/D9eANbHkIA4/PPMZ0IQ235xoXvIPDw8OKysr7mn42N7eVn8mk1GwtoK+j/ggLwg/ztYW5wNtvr170rSIOwO5XE5SqZS0222352Nubk45rOHA3draCvn8NeCNYCNlIC6Yw4CmoU+auTk5OZFOp6NYXl6WyclJubi4cHs+ZmdnlcMaDtzNzc2QL4oXFRfMYUDT0JnmhNZqNf2cgqWlJU1ydnbm9nwgBg5rOHBLpVLIF8Wza/g8aX6DOQxoGvr2YOg3Njb0jq+urmRxcfFdCw3JZFIP0MzMjHLgcs0+bfRj+fV5AI7lwmf+YA6AFjShzTcnGuPrU61W5fLy8lsALSO/iGY7OzvaEu7yK4EGtERZSDRfIch7e3vaMmbtM0FNaqMBLVEWEm1GW5in/f19OT4+1lNMwnGA3NSgFjWjRsK3oaIxDoD9icgB8f/b+JcgNzWoFTx0UTZS9He1Hyha5DdAKbYYl2mtgAAAAABJRU5ErkJggg==" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Acesse aqui'" sap:VirtualizedContainerService.HintSize="388,157" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e1c779bc-7084-4137-8393-67e8920957ec" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.siepe.educacao.pe.gov.br/Site/Aluno/paginaCentralAlunoAction.do?actionType=iniciar&amp;navegacao=siteAluno&amp;dummy=1701196110002" DesignTimeRectangle="695, 606, 367, 125" DesignTimeScaleFactor="1" FriendlyName="'Acesse aqui'" FullSelectorArgument="&lt;webctrl class='dinamicoCorpo' parentid='divEWMainDiv30299862' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl class='dinamicoCorpo' parentid='divEWMainDiv30299862' tag='DIV' type='' aaname=' &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9; &amp;#x9;&amp;#x9; &amp;#x9;' check:text='Acesse aqui o seu boletim escolar e confira suas notas e faltas.' /&gt;" Guid="3a561adf-4135-4fd4-b81a-925f256a3442" InformativeScreenshot="0338fc2f08599a4bbf8091d69b279a69.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Portal SIEPE' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'JOAO GABRIEL'" sap:VirtualizedContainerService.HintSize="388,157" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e1c779bc-7084-4137-8393-67e8920957ec" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.siepe.educacao.pe.gov.br/WebModuleBoletim/interfaceBoletimAction.do?actionType=exibirImplementacao&amp;idAtor=1" CvTextArea="736, 426, 216, 13" CvTextArgument="&gt; JOAO GABRIEL DE MELO FREIRE" CvType="Text" DesignTimeRectangle="695, 410, 740, 45" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'JOAO GABRIEL'" FullSelectorArgument="&lt;webctrl parentid='divEWMainDiv30347899' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='divEWMainDiv30347899' tag='A' type='' class='' aaname=' &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9; &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9; &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;JOAO GABRIEL DE MELO FREIRE &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;' check:innerText='JOAO GABRIEL DE MELO FREIRE' /&gt;" Guid="4b47f1cc-ff5e-46b6-ae4d-f574f4ff0fcc" InformativeScreenshot="1e7cc42d3b9fa09307eb4b91a84117ce.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Portal SIEPE' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CvTextArea="699, 348, 70, 16" CvTextArgument="Boletim" CvType="Text" DesignTimeRectangle="695, 347, 740, 33" ElementType="Text" FriendlyName="'Boletim'" FullSelectorArgument="&lt;webctrl tag='H1' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='H1' type='' class='' aaname='Boletim' check:innerText='Boletim' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAugAAAAlCAYAAAAQsxzTAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAI8SURBVHhe7dzBUQIxGIBRG7ET67EAxya8OuPZEjx5sgUvWoVDExEkkGzIwrgs+ovvzeSSXRK8fcSFiwQAAIQh0AEAIBCBDgAAgQh0AAAIRKADAEAgvxjoH+np9iZdXq3GY3rNs/Oo175LT4s8DQAAwR0I9Pd0/xW5I+P2JU1vX4EOAACtbwR6FdFvj3luOSZH+vGB/vqweb0IBwDgPEwL9MH81DgW6AAA0Joh0DtxvXhJ19vreeyctO8P9MXz3fD1q/Hwnq/Wr21G3qcb7/X7Wq1V/yegum+497QPDwAAMMXRj7hcP3/kybUSt73grU+6xwK9zJe1q/dRhf6+E/SDgb4aOfjLveux3re/JwAAnNJxXxJtT5fbE+qtXuz2A73E/HDtXuQfFejV+6tPzO/f8uRSWaP5OwEA4EQmPuIyfMRkG7WjJ+u9GD80Nz42+/1coO+uDwAApzAx0Jc6v+RSh+54oG9itxfoe/brEOgAAJybWQN93hN0gQ4AwP8zT6BvYneGZ9BLFA9juUegAwBwbmZ4Bn0YryV2y3xvbvy0vN6zCeOvDwXVXPUhoY15gQ4AwF/0jUDvjLGfH6xDePTe/Y+z1NE8GM06O/fl6wIdAIC/6ECgAwAAP0mgAwBAIAIdAAACEegAABCIQAcAgEAEOgAABCLQAQAgEIEOAACBCHQAAAhEoAMAQCACHQAAAhHoAAAQiEAHAIBABDoAAAQi0AEAIBCBDgAAgQh0AAAIRKADAEAgAh0AAMJI6RNT+J+WrJZ/GAAAAABJRU5ErkJggg==" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-8, -8, 1936, 1056" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAA6SURBVDhPpcgxEQAgDAAx/GAC/6aKgQz8MWTJWvvMF2bBLJgFs2AWzIJZMAtmwSyYBbNgFsyC+ezMBfYDahC8xLjaAAAAAElFTkSuQmCC" InformativeScreenshot="02f44bbacd77dc2d601812f4e139891f.jpg" Selector="&lt;html app='chrome.exe' title='Portal SIEPE' /&gt;" Title="Portal SIEPE" Url="https://www.siepe.educacao.pe.gov.br/" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Application/Browser" sap:VirtualizedContainerService.HintSize="580,838" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" ScopeGuid="7a90552f-6cc1-48ea-9e20-90d092c8e632" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Fazer" sap:VirtualizedContainerService.HintSize="546,621" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NExtractData AppendResults="False" ContinueOnError="True" DisplayName="Extract Table Data" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Table' AddCvHeader='true' IsScrollEnabled='false'&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='Componentes curriculares' ReferenceName='Componentes curriculares' ReferenceIdx='0'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='1ª Unidade Bimestral Média' ReferenceName='1ª Unidade Bimestral Média' ReferenceIdx='1'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='1ª Unidade Bimestral Faltas FJ' ReferenceName='1ª Unidade Bimestral Faltas FJ' ReferenceIdx='2'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='1ª Unidade Bimestral Faltas FNJ' ReferenceName='1ª Unidade Bimestral Faltas FNJ' ReferenceIdx='3'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='2ª Unidade Bimestral Média' ReferenceName='2ª Unidade Bimestral Média' ReferenceIdx='4'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='2ª Unidade Bimestral Faltas FJ' ReferenceName='2ª Unidade Bimestral Faltas FJ' ReferenceIdx='5'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='2ª Unidade Bimestral Faltas FNJ' ReferenceName='2ª Unidade Bimestral Faltas FNJ' ReferenceIdx='6'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='3ª Unidade Bimestral Média' ReferenceName='3ª Unidade Bimestral Média' ReferenceIdx='7'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='3ª Unidade Bimestral Faltas FJ' ReferenceName='3ª Unidade Bimestral Faltas FJ' ReferenceIdx='8'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='3ª Unidade Bimestral Faltas FNJ' ReferenceName='3ª Unidade Bimestral Faltas FNJ' ReferenceIdx='9'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='4ª Unidade Bimestral Média' ReferenceName='4ª Unidade Bimestral Média' ReferenceIdx='10'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='4ª Unidade Bimestral Faltas FJ' ReferenceName='4ª Unidade Bimestral Faltas FJ' ReferenceIdx='11'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='4ª Unidade Bimestral FNJ' ReferenceName='4ª Unidade Bimestral FNJ' ReferenceIdx='12'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='Média Anual' ReferenceName='Média Anual' ReferenceIdx='13'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='Nota Rec. Final' ReferenceName='Nota Rec. Final' ReferenceIdx='14'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='Nota Final' ReferenceName='Nota Final' ReferenceIdx='15'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract-table get_columns_name='1' get_empty_columns='1' columns_name_source='Longest'&gt;&lt;column name='Componentes curriculares' attr='fulltext' /&gt;&lt;column name='1ª Unidade Bimestral Média' attr='fulltext' /&gt;&lt;column name='1ª Unidade Bimestral Faltas FJ' attr='fulltext' /&gt;&lt;column name='1ª Unidade Bimestral Faltas FNJ' attr='fulltext' /&gt;&lt;column name='2ª Unidade Bimestral Média' attr='fulltext' /&gt;&lt;column name='2ª Unidade Bimestral Faltas FJ' attr='fulltext' /&gt;&lt;column name='2ª Unidade Bimestral Faltas FNJ' attr='fulltext' /&gt;&lt;column name='3ª Unidade Bimestral Média' attr='fulltext' /&gt;&lt;column name='3ª Unidade Bimestral Faltas FJ' attr='fulltext' /&gt;&lt;column name='3ª Unidade Bimestral Faltas FNJ' attr='fulltext' /&gt;&lt;column name='4ª Unidade Bimestral Média' attr='fulltext' /&gt;&lt;column name='4ª Unidade Bimestral Faltas FJ' attr='fulltext' /&gt;&lt;column name='4ª Unidade Bimestral FNJ' attr='fulltext' /&gt;&lt;column name='Média Anual' attr='fulltext' /&gt;&lt;column name='Nota Rec. Final' attr='fulltext' /&gt;&lt;column name='Nota Final' attr='fulltext' /&gt;&lt;/extract-table&gt;" sap:VirtualizedContainerService.HintSize="484,157" sap2010:WorkflowViewState.IdRef="NExtractData_2" LimitExtractionTo="None" MaximumResults="0" Version="V3">
+              <uix:NExtractData.DataTable>
+                <InOutArgument x:TypeArguments="sd:DataTable">
+                  <CSharpReference x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpReference`1_2">ExtractDataTable</CSharpReference>
+                </InOutArgument>
+              </uix:NExtractData.DataTable>
+              <uix:NExtractData.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="16, 404, 1904, 286" DesignTimeScaleFactor="1" FriendlyName="'Componentes curriculares'" FullSelectorArgument="&lt;webctrl id='componentes_11908183' tag='TABLE' /&gt;" Guid="a7d17b21-2620-4010-bcc8-da6ab6572f10" InformativeScreenshot="71fb3eeec50aa3f50c16bb6a87a94e1e.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boletim Escolar' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
+              </uix:NExtractData.Target>
+            </uix:NExtractData>
+            <ui:ExcelApplicationScope Password="{x:Null}" DisplayName="Excel Application Scope" sap:VirtualizedContainerService.HintSize="484,309" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_1" InstanceCachePeriod="3000" WorkbookPath="Notas.xlsx">
+              <ui:ExcelApplicationScope.Body>
+                <ActivityAction x:TypeArguments="ui:WorkbookApplication">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="ui:WorkbookApplication" Name="ExcelWorkbookScope" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Fazer" sap:VirtualizedContainerService.HintSize="450,199" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <ui:ExcelAppendRange DisplayName="Append Range" sap:VirtualizedContainerService.HintSize="388,88" sap2010:WorkflowViewState.IdRef="ExcelAppendRange_1" SheetName="Sheet1">
+                      <ui:ExcelAppendRange.DataTable>
+                        <InArgument x:TypeArguments="sd:DataTable">
+                          <CSharpValue x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpValue`1_5">ExtractDataTable</CSharpValue>
+                        </InArgument>
+                      </ui:ExcelAppendRange.DataTable>
+                    </ui:ExcelAppendRange>
+                  </Sequence>
+                </ActivityAction>
+              </ui:ExcelApplicationScope.Body>
+            </ui:ExcelApplicationScope>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAA6SURBVDhPpcgxEQAgDAAx/GAC/6aKgQz8MWTJWvvMF2bBLJgFs2AWzIJZMAtmwSyYBbNgFsyC+ezMBfYDahC8xLjaAAAAAElFTkSuQmCC" InformativeScreenshot="7381c272947f0914cec8d88c386f3296.jpg" Selector="&lt;html app='chrome.exe' title='Boletim Escolar' /&gt;" Title="Boletim Escolar" Url="https://www.siepe.educacao.pe.gov.br/ws/eol/aluno/documentos/BoletimEscolar?matriculas=11908183_&amp;ano=2023&amp;isInterface=true" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
